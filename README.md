@@ -1,2 +1,75 @@
-# BlogBoost
-AI BlogBoost is an end-to-end agentic blogging pipeline that uses LangChain, and Playwright to automatically generate, format, and post blogs to DEV.to. This project enables async, modular content publishing and can be extended to other platforms like Medium or Hashnode.
+# 🧠 AI BlogBoost — LangChain-Powered Blog Automation for DEV.to
+
+> ✨ Auto-generate, format, and publish blog posts to [DEV.to](https://dev.to) using LangChain + Playwright.
+
+---
+
+## 📽️ Demo
+
+[![Watch the video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://youtu.be/VIDEO_ID)
+<!-- Replace VIDEO_ID with your actual YouTube video ID or use demo.mp4 hosted in repo -->
+
+---
+
+## Features
+
+- ✅ **LangChain  Workflow**
+- ✍️ Auto-generates Markdown blog posts
+- 🔑 Secure login to DEV.to via Playwright
+- 🛠️ Fully async architecture with retry-friendly nodes
+- 💡 Modular pipeline: generate → format → publish
+- 📦 Easily extendable to Medium, Hashnode, or other platforms
+
+---
+
+## 📦 Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://gitlab.com/k7kaushal/BlogBoost/.git
+```
+
+### 2. Install Dependencies
+
+```bash
+python -m venv .venv
+source .venv/bin/activate    # Or `.venv\Scripts\activate` on Windows
+
+pip install -r requirements.txt
+```
+
+> Required: Python 3.10+
+
+### 3. Setup Environment Variables
+
+Create a `.env` file:
+
+```ini
+DEVTO_EMAIL=your_email@example.com
+DEVTO_PASSWORD=your_password
+HF_API_TOKEN=huggingface_token
+```
+
+---
+
+## ⚙️ Running the Pipeline
+
+```bash
+python LangChain_workflow/main.py
+```
+
+This will:
+- Generate a blog post using an LLM
+- Use Playwright to log in to DEV.to
+- Automatically publish the post with selected tags
+
+---
+
+## Note
+
+- Your credentials are read from `.env` file (never hardcoded).
+- Make sure `.env` is listed in `.gitignore`.
+
+---
+

@@ -1,26 +1,26 @@
-# 🧠 AI BlogBoost — LangChain-Powered Blog Automation for DEV.to
+# AI BlogBoost — LangChain-Powered Blog Automation for DEV.to
 
-> ✨ Auto-generate, format, and publish blog posts to [DEV.to](https://dev.to) using LangChain + Playwright.
+>  Auto-generate, format, and publish blog posts to [DEV.to](https://dev.to) using LangChain + Playwright.
 
 ---
 
-## 📽️ Demo
+## 📽 Demo
 https://github.com/k7kaushal/BlogBoost/blob/main/DEMO.mp4
 
 ---
 
 ## Features
 
-- ✅ **LangChain  Workflow**
-- ✍️ Auto-generates Markdown blog posts
-- 🔑 Secure login to DEV.to via Playwright
-- 🛠️ Fully async architecture with retry-friendly nodes
-- 💡 Modular pipeline: generate → format → publish
-- 📦 Easily extendable to Medium, Hashnode, or other platforms
+- **LangChain  Workflow**
+- Auto-generates Markdown blog posts
+- Secure login to DEV.to via Playwright
+- Fully async architecture with retry-friendly nodes
+- Modular pipeline: generate → format → publish
+- Easily extendable to Medium, Hashnode, or other platforms
 
 ---
 
-## 📦 Setup
+## Setup
 
 ### 1. Clone the Repository
 

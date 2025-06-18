@@ -26,7 +26,7 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://gitlab.com/k7kaushal/BlogBoost/.git
+git clone https://gitlab.com/k7kaushal/BlogBoost.git
 ```
 
 ### 2. Install Dependencies

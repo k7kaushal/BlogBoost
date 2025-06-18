@@ -1,0 +1,5 @@
+Write a {word_count}-word blog post in a {style} tone.
+The topic is: {topic}.
+
+Structure it with a short intro, 2–3 body paragraphs, and a conclusion.
+Avoid repeating this instruction in the output.

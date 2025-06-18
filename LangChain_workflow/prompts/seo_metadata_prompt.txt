@@ -1,0 +1,7 @@
+Generate an SEO-friendly blog title and meta description for this blog:
+
+{content}
+
+Return in this format:
+Title: ...
+Meta Description: ...

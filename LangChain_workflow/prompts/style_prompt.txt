@@ -1,0 +1,8 @@
+Rewrite the following blog post in a {style} tone.
+Preserve the core message.
+Naturally include these SEO keywords: {keywords}
+
+Blog:
+{content}
+
+Rewritten:

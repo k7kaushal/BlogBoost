@@ -5,9 +5,7 @@
 ---
 
 ## 📽️ Demo
-
-[![Watch the video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://youtu.be/VIDEO_ID)
-<!-- Replace VIDEO_ID with your actual YouTube video ID or use demo.mp4 hosted in repo -->
+https://github.com/k7kaushal/BlogBoost/blob/main/DEMO.mp4
 
 ---
 
